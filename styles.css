@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+.clock {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 30px 50px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.day {
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.period {
+  font-size: 20px;
+  vertical-align: super;
+  margin-left: 8px;
+}
